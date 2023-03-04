@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Roboto+Mono:wght@500&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+:root{
+    --main-background: #0E162F;
+    --font-white: #FBFBFF;
+    --accent-color: #0066FF;
+    --slide-background: #162349;
+}
+
+body{
+    background: #0E162F;
+    height: 100vh;
+    width: 100%;
+    
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100%;
+}
+
+#title{
+    color: var(--font-white);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 48px;
+}
+
+#cyber-title {
+    font-family: 'Open Sans', sans-serif;
+    color: var(--accent-color);
+    font-size: 64px;
+}
+
+h1,p{
+    text-align: center;
+    width: fit-content;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 3rem;
+
+}
+
+.card{
+    background-color: var(--slide-background);
+    border-radius: 30px 30px 0 0;
+    width: 60%;
+    margin-top: 7rem;
+    padding: 2rem 4rem;
+    height: 100%;
+}
+
+.card h2{
+    font-family: 'Open Sans', monospace;
+    font-size: 40px;
+    color: var(--font-white);
+    text-align: center;
+    
+}
+
+.card p{
+    font-family: 'Roboto Mono', sans-serif;
+    color: var(--font-white);
+    font-size: 20px;
+}
